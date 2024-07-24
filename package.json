@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 3 openclassrooms ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HIssa619/OhMyFood.git"
+  },
+  "author": "Aissa HENNI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HIssa619/OhMyFood/issues"
+  },
+  "homepage": "https://github.com/HIssa619/OhMyFood#readme",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
