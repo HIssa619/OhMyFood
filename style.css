@@ -22,7 +22,6 @@ header {
   position: relative;
   background: #FFFFFF;
 }
-
 header h1 {
   font-family: shrikhand;
   margin: 0;
@@ -38,25 +37,22 @@ main .locali {
   background-color: #EAEAEA;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
 }
-
-main .locali i {
+main .locali main .locali i {
   font-size: 18px;
 }
 
 .explorer {
+  height: 300px;
   text-align: center;
 }
-
-.explorer h1 {
+.explorerh1 {
   padding: 2rem 4rem 0rem 4rem;
   font-size: 26px;
 }
-
 .explorer p {
   font-size: 18px;
   padding: 0rem 2rem 0rem 2rem;
 }
-
 .explorer button {
   margin: 2rem;
   width: 218px;
@@ -71,11 +67,20 @@ main .locali i {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
   transition: all 200ms;
 }
-
 .explorer button:hover {
   transform: scale(1.02);
   box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.2509803922);
   opacity: 0.9;
+}
+
+main .fonctionnement {
+  height: 440px;
+  background-color: #be2525;
+  padding: 48px;
+}
+
+main h2 {
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
