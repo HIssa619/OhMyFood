@@ -20,7 +20,7 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
-  background: #e41111;
+  background: #FFFFFF;
 }
 header h1 {
   font-family: shrikhand;
@@ -37,17 +37,17 @@ main .locali {
   background-color: #EAEAEA;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
 }
-main .locali main .locali i {
-  font-size: 18px;
+main .locali h2,i{
+  font-size: 16px;
 }
 
 .explorer {
   height: 300px;
   text-align: center;
 }
-.explorerh1 {
+.explorer h1 {
   padding: 2rem 4rem 0rem 4rem;
-  font-size: 26px;
+  font-size: 24px;
 }
 .explorer p {
   font-size: 18px;
@@ -67,20 +67,25 @@ main .locali main .locali i {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
   transition: all 200ms;
 }
+
 .explorer button:hover {
   transform: scale(1.02);
   box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.2509803922);
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 main .fonctionnement {
-  height: 440px;
-  background-color: #be2525;
-  padding: 48px;
+  background-color: #FFFFFF;
+  width: 100%;  
 }
 
-main h2 {
+.fonctionnement h2 {
   font-size: 24px;
+  padding: 50px 20px;    
+  font-weight: 700px;
 }
 
+.listefonc{
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
