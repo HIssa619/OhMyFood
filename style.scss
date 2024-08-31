@@ -1,16 +1,8 @@
 @import "./sass/base";
-@import "./sass/layout";
-@import "./sass/locali";
-@import "./sass/explorer";
+@import "./sass/layout/header";
+@import "./sass/layout/locali";
+@import "./sass/layout/explorer";
+@import "./sass/layout/function";
 
 
 
-main .fonctionnement{
-    height: 440px;
-    background-color: #be2525;
-    padding: 48px;
-}
-
-main h2{
-    font-size: 24px;
-}

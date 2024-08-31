@@ -37,17 +37,18 @@ main .locali {
   background-color: #EAEAEA;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
 }
-main .locali h2,i{
-  font-size: 16px;
+main .locali main .locali i {
+  font-size: 18px;
 }
 
 .explorer {
+  padding: 1.5rem;
   height: 300px;
   text-align: center;
 }
-.explorer h1 {
+.explorerh1 {
   padding: 2rem 4rem 0rem 4rem;
-  font-size: 24px;
+  font-size: 26px;
 }
 .explorer p {
   font-size: 18px;
@@ -64,28 +65,38 @@ main .locali h2,i{
   color: white;
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
   cursor: pointer;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
   transition: all 200ms;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
 }
-
 .explorer button:hover {
   transform: scale(1.02);
   box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.2509803922);
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
-main .fonctionnement {
-  background-color: #FFFFFF;
-  width: 100%;  
+.function {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem 1rem;
 }
-
-.fonctionnement h2 {
-  font-size: 24px;
-  padding: 50px 20px;    
-  font-weight: 700px;
-}
-
-.listefonc{
+.function ol {
   display: flex;
+  gap: 30px;
 }
+@media (max-width: 800px) {
+  .function ol {
+    flex-direction: column;
+  }
+}
+.function li {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: #F6F6F6;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  display: flex;
+  gap: 90px;
+}
+
 /*# sourceMappingURL=style.css.map */

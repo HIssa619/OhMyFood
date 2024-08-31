@@ -1,0 +1,24 @@
+.function{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem 1rem;
+ 
+    & ol{
+        display: flex;
+        gap: 30px;
+        @media(max-width: 800px){
+            flex-direction: column;
+        }
+    }
+    & li{
+            width: 100%;
+            padding: 1rem 2rem;
+            background-color: #F6F6F6;
+            font-size: 16px;
+            font-weight: 500; 
+            border-radius: 1rem;
+            @include base-shadow;
+            display: flex;
+            gap: 90px;
+        }
+    
+}

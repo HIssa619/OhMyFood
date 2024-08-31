@@ -1,5 +1,7 @@
 
+@import "../tools/box-shadow.scss";
 .explorer{
+    padding: 1.5rem;
     height: 300px;
     text-align: center;
     &h1{
@@ -21,8 +23,8 @@
         color:white;
         background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
         cursor: pointer;
-        box-shadow: 0px 4px 10px 0px #00000040;
         transition: all 200ms;
+        @include base-shadow;
         
     }
     & button:hover{
