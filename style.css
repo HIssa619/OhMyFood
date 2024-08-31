@@ -43,7 +43,6 @@ main .locali main .locali i {
 
 .explorer {
   padding: 1.5rem;
-  height: 300px;
   text-align: center;
 }
 .explorerh1 {
@@ -76,27 +75,55 @@ main .locali main .locali i {
 
 .function {
   background-color: hsl(0, 0%, 100%);
-  padding: 1rem 1rem;
+  padding: 2rem 3rem;
+  counter-reset: num-menu;
+}
+@media (max-width: 1000px) {
+  .function {
+    padding: 2rem 2rem;
+  }
 }
 .function ol {
   display: flex;
-  gap: 30px;
+  gap: 2rem;
+  position: relative;
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .function ol {
     flex-direction: column;
   }
 }
-.function li {
+.function ol li {
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   background-color: #F6F6F6;
   font-size: 16px;
   font-weight: 500;
   border-radius: 1rem;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
-  display: flex;
-  gap: 90px;
+  list-style: none;
+  position: relative;
+  padding: 1.5rem;
+}
+.function ol li:hover {
+  transform: scale(1.02);
+}
+.function ol li i {
+  margin-right: 1rem;
+  color: #7e7e7e;
+}
+.function ol li::before {
+  content: counter(num-menu);
+  counter-increment: num-menu;
+  color: white;
+  background-color: #9356DC;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  position: absolute;
+  left: -0.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
