@@ -123,7 +123,11 @@ main .locali main .locali i {
   place-items: center;
   border-radius: 50%;
   position: absolute;
-  left: -0.75rem;
+  left: -1rem;
+}
+
+.menu .card {
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */
