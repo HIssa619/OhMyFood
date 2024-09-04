@@ -11,5 +11,25 @@ body{
     margin: 0;
     font-family: "Roboto";
     background-color: #F6F6F6;
+    scroll-behavior: smooth;
 }
 
+.container {
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+.main-container {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}

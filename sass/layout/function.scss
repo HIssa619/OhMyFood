@@ -1,15 +1,13 @@
 .function{
     background-color: hsl(0, 0%, 100%);
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
     counter-reset: num-menu;
-    @media(max-width: 1000px){
-        padding: 2rem 2rem;
-    }
+    
     
     & ol{
         display: flex;
         gap: 2rem ;
-        @media(max-width: 1000px){
+        @media(max-width: 1024px){
             flex-direction: column;
         }
         position: relative;

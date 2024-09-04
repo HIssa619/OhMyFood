@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    <div class="main-container">
     <header>
         <div><h1>ohmyfood</h1></div>
  
@@ -26,49 +26,71 @@
             <button> Explorer nos restaurants</button>
         </section>
         <section class="function">
-            <h2>Fonctionnement</h2>
-            
+            <section class="container">
+
+                <h2>Fonctionnement</h2>
+                
                 <ol>
                     <li>
                         <i class="function__icon fas fa-mobile-alt"></i>
                         Choisissez un restaurant
-                      </li>
-                      <li>
+                    </li>
+                    <li>
                         <i class="function__icon fas fa-list-ul"></i>
                         Composez votre menu
-                      </li>
-                      <li>
+                    </li>
+                    <li>
                         <i class="function__icon fas fa-store"></i>
                         Dégustez au restaurant
-                      </li>
+                    </li>
                 </ol>
             </section>
-            <section class="menu">
+        </section>
+        <section class="menus">
+                <section class="container">
                 <h2>Restaurants</h2>
                 <div class="menu_card">
-                    <div href="#" class = "card">Resto 1
-                        <div class = "card_image">
-                        </div>
-                        <div class = card_description></div>
-                    </div>
-                    <div href="#" class = "card">Resto 2
+                    <a href="#" class ="card">
                         <div class = "card_image"> 
+                            <img class = "card_image" src="./assets/restaurants/menu-1.jpg">
                         </div>
-                        <div class = card_description></div>
-                    </div>
-                    <div href="#" class = "card">rESTO 3
+                        <span>Nouveau</span>
+                        <div class="card_footer">
+                            <div class = card_description> <h3>La palette du goût</h3><p>Ménilmontant</p></div> 
+                            <div class="card_button"></div>
+                        </div>
+                    </a>
+                    <a href="#" class ="card">
                         <div class = "card_image"> 
+                            <img class = "card_image" src="./assets/restaurants/menu-2.jpg">
                         </div>
-                        <div class = card_description></div>
-                    </div>                    
-                    <div href="#" class = "card">Resto4
-                        <div class = "card_image">      </div>
-                        <div class = card_description></div>
-                    </div>            
+                        <span>Nouveau</span>
+                        <div class="card_footer">
+                            <div class = card_description><h3>La note enchantée</h3><p>Charonne</p></div>
+                            <div class="card_button"></div>
+                        </div>
+                    </a>
+                    <a href="#" class ="card">
+                        <div class = "card_image"> 
+                            <img class = "card_image" src="./assets/restaurants/menu-3.jpg">
 
-  
+                        </div>
+                        <div class="card_footer">
+                            <div class = card_description><h3>À la française</h3><p>Cité Rouge</p></div>
+                            <div class="card_button"></div>
+                        </div>
+                    </a>                    
+                    <a href="#" class = "card">
+                        <div class = "card_image"> 
+                            <img class = "card_image" src="./assets/restaurants/menu-4.jpg">
+                        </div>
+                        <div class="card_footer">
+                            <div class = card_description><h3>Le délice des sens</h3><p>Folie-Méricourt</p></div>
+                            <div class="card_button"></div>
+                        </div>
+                    </a>            
                 </div>
-                </section>
+        </section>
     </main>
 
     <footer>
@@ -88,6 +110,6 @@
             </li>
         </ul>
     </footer>
-    
+    </div>
 </body>
 </html>

@@ -1,5 +1,54 @@
-.menu {
-    .card{
-        border: 1px solid black;
+.menus {
+    background-color: #f6f6f6;
+    padding: 1rem 1rem;
+    
+    & .menu_card{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 4rem;
+        
+         
+        @media(min-width : 1024px)   {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 17rem 17rem;
+            column-gap: 5rem;
+            row-gap: 4rem;   
+        }
+        & .card{
+            background-color: #fff;
+            border-radius: 1rem;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            box-sizing: border-box;
+
+            & .card_image {
+                height: 12rem;
+                width: 100%;
+                border-radius: 1rem 1rem 0 0;
+                box-shadow: none;
+                object-fit: cover;  
+
+                }
+            span{
+                background-color: #99e2d0;
+                color: #1b6150;
+                padding: 0.5rem;
+                border-radius: 2px;
+                position: absolute;
+                top: 1rem;
+                right: .75rem;
+                
+                
+            }
+            .card_footer{                
+                & .card_description {               
+                    padding-left: 1rem; 
+                    & h3{height: 10px;
+                    }
+                }
+            }
+        }
     }
 }

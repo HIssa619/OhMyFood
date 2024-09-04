@@ -10,6 +10,29 @@ body {
   margin: 0;
   font-family: "Roboto";
   background-color: #F6F6F6;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+
+.main-container {
+  width: 100%;
+  padding: 0px;
+  margin: 0;
+}
+
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
 }
 
 header {
@@ -19,7 +42,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   background: #FFFFFF;
 }
 header h1 {
@@ -75,20 +97,15 @@ main .locali main .locali i {
 
 .function {
   background-color: hsl(0, 0%, 100%);
-  padding: 2rem 3rem;
+  padding: 2rem 1rem;
   counter-reset: num-menu;
-}
-@media (max-width: 1000px) {
-  .function {
-    padding: 2rem 2rem;
-  }
 }
 .function ol {
   display: flex;
   gap: 2rem;
   position: relative;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .function ol {
     flex-direction: column;
   }
@@ -126,8 +143,53 @@ main .locali main .locali i {
   left: -1rem;
 }
 
-.menu .card {
-  border: 1px solid black;
+.menus {
+  background-color: #f6f6f6;
+  padding: 1rem 1rem;
+}
+.menus .menu_card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 4rem;
+}
+@media (min-width: 1024px) {
+  .menus .menu_card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 17rem 17rem;
+    column-gap: 5rem;
+    row-gap: 4rem;
+  }
+}
+.menus .menu_card .card {
+  background-color: #fff;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  box-sizing: border-box;
+}
+.menus .menu_card .card .card_image {
+  height: 12rem;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+.menus .menu_card .card span {
+  background-color: #99e2d0;
+  color: #1b6150;
+  padding: 0.5rem;
+  border-radius: 2px;
+  position: absolute;
+  top: 1rem;
+  right: 0.75rem;
+}
+.menus .menu_card .card .card_footer .card_description {
+  padding-left: 1rem;
+}
+.menus .menu_card .card .card_footer .card_description h3 {
+  height: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
