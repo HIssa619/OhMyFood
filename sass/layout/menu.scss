@@ -1,19 +1,22 @@
 .menus {
+    width: 100%;
     background-color: #f6f6f6;
     padding: 1rem 1rem;
-    
+    margin-bottom: 2.5rem;
     & .menu_card{
         display: flex;
         flex-direction: column;
-        padding: 1rem 4rem;
-        
+        gap: 1rem;
+        padding: 1rem 0rem;
          
         @media(min-width : 1024px)   {
             display: grid;
             grid-template-columns: 50% 50%;
             grid-template-rows: 17rem 17rem;
-            column-gap: 5rem;
+            column-gap: 4rem;
             row-gap: 4rem;   
+            padding: 1rem 4rem;
+            
         }
         & .card{
             background-color: #fff;
@@ -42,10 +45,35 @@
                 
                 
             }
-            .card_footer{                
-                & .card_description {               
+            .card_footer{        
+
+                & .card_description {   
+                    position: relative;
                     padding-left: 1rem; 
                     & h3{height: 10px;
+                    }
+                    
+                }
+                & .card_btn{
+                    & i{
+                        
+                        font-size: 35px;
+                        position: absolute;
+                        right:  2rem;
+                        bottom: 1.5rem;
+                        
+                    }
+                    & .fa-solid{
+                        color: transparent;
+                        background-image :linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        opacity: 0;
+                        transition: all 300ms;
+                        &:hover{
+                            opacity: 1;
+                    
+                        }
                     }
                 }
             }

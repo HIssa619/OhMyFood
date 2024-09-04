@@ -6,9 +6,10 @@
     
     & ol{
         display: flex;
+        flex-direction: column;
         gap: 2rem ;
-        @media(max-width: 1024px){
-            flex-direction: column;
+        @media(min-width : 1024px){
+            flex-direction: row;
         }
         position: relative;
     & li{
@@ -22,6 +23,7 @@
             list-style: none;
             position: relative;
             padding: 1.5rem;
+            animation-duration: 0ms;
 
             &:hover{
                 transform: scale(1.02);
