@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/91e625c811.js" crossorigin="anonymous"></script>
+    <title>Ohmyfood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+    <header>
+        <!--Le header -->
+        <div>
+            <h1>ohmyfood</h1>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="locali">
+            <!-- le nom de la ville avec l'icon  -->
+            <i class="fa-map-marker-alt fas local__icon" aria-hidden="true"></i>          
+            <h2>Paris, Belleville</h2>
+        </div>
+        <div class="explorer">
+            <!--Le texte avec le button -->
+            <h1>Réservez le menu qui vous convient</h1>
+            <p>Découvrez des restaurants d'exception sélectionnés par nos soins.</p>
+            <button> Explorer nos restaurants</button>
+        </div>
+
+
+        <div class="function">
+            <section class="container">
+                <!--la section fonctionnement avec les trois choix -->
+                <h2>Fonctionnement</h2>
+                <ol>
+                    <li>
+                        <i class="function__icon fas fa-mobile-alt"></i>
+                        Choisissez un restaurant
+                    </li>
+                    <li>
+                        <i class="function__icon fas fa-list-ul"></i>
+                        Composez votre menu
+                    </li>
+                    <li>
+                        <i class="function__icon fas fa-store"></i>
+                        Dégustez au restaurant
+                    </li>
+                </ol>
+            </section>
+        </div>
+
+
+        <div class="menus">
+                <section class="container">
+                     <!--liste des restaurant-->
+
+                    <h2>Restaurants</h2>
+                    <div class="menu_card">
+                        <!--restaurant 1 avec badge nouveau et le like animé-->
+                        <a href="./pages/resto-1.html" class ="card">
+                        <div class = "card_image"> 
+                            <img class = "card_image" src="./assets/restaurants/menu-1.jpg" alt="image plat restaurant 1">
+                        </div>
+                        <span>Nouveau</span>
+                        <div class="card_footer">
+                            <div class = card_description> 
+                                <h3>La palette du goût</h3>
+                                <p>Ménilmontant</p>
+                            </div> 
+                            <div class="card_btn">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                        </a>
+                        
+                        <!--restaurant 2 avec badge nouveau et le like animé-->
+                        <a href="./pages/resto-2.html" class ="card">
+                            <div class = "card_image"> 
+                                <img class = "card_image" src="./assets/restaurants/menu-2.jpg" alt="image plat restaurant 2">
+                            </div>
+                            <span>Nouveau</span>
+                            <div class="card_footer">
+                                <div class = card_description>
+                                    <h3>La note enchantée</h3>
+                                    <p>Charonne</p>
+                                </div>
+                                <div class="card_btn">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>                        
+                            </div>
+                        </a>
+
+                        <!--restaurant 3 et le like animé-->
+                        <a href="./pages/resto-3.html" class ="card" >
+                            <div class = "card_image"> 
+                                <img class = "card_image" src="./assets/restaurants/menu-3.jpg" alt="image plat restaurant 3">
+                            </div>
+                            <div class="card_footer">
+                                <div class = card_description>
+                                    <h3>À la française</h3>
+                                    <p>Cité Rouge</p>
+                                </div>
+                                <div class="card_btn">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <!--restaurant 4 et le like animé-->
+                        <a href="./pages/resto-4.html" class = "card">
+                            <div class = "card_image"> 
+                                <img class = "card_image" src="./assets/restaurants/menu-4.jpg" alt="image plat restaurant 4">
+                            </div>
+                            <div class="card_footer">
+                                <div class = card_description>
+                                    <h3>Le délice des sens</h3>
+                                    <p>Folie-Méricourt</p>
+                                </div>
+                                <div class="card_btn">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>                        
+                            </div>
+                        </a>            
+                    </div>
+                </section>
+            </div>
+    </main>
+
+    <footer>
+        <!--Footer avec l'envoie du mail en contact-->
+        <h2>ohmyfood</h2>
+        <ul class="footer__list">
+            <li class="footer__listElement">
+                <a class="footer__link" href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
+            </li>
+            <li class="footer__listElement">
+                <a class="footer__link" href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
+            </li>
+            <li class="footer__listElement">
+                <a class="footer__link" href="#">Mentions légales</a>
+            </li>
+            <li class="footer__listElemet">
+                <a class="footer__link" href="mailto:contact@ohmyfood.com">Contact</a>
+            </li>
+        </ul>
+    </footer>
+    </div>
+</body>
+</html>
