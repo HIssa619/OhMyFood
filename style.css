@@ -67,6 +67,7 @@ main .locali main .locali i {
 .explorer {
   padding: 1.5rem;
   text-align: center;
+  background-color: #F6F6F6;
 }
 .explorerh1 {
   padding: 2rem 4rem 0rem 4rem;
@@ -380,18 +381,20 @@ main .menu-page .liste-menu .submenu .plats {
   border-radius: 0.75rem;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 }
+main .menu-page .liste-menu .submenu .plats .plat-head {
+  width: 100%;
+  padding: 1rem 0 1rem 0.25rem;
+}
 main .menu-page .liste-menu .submenu .plats .plat-head h4 {
-  padding: 0;
   font-size: 18px;
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
   font-weight: 500;
   white-space: nowrap;
+  margin: 0;
 }
 main .menu-page .liste-menu .submenu .plats .plat-head p {
   font-size: 15.04px;
   font-weight: 300;
-  padding: 0;
+  margin: 0;
 }
 main .menu-page .liste-menu .submenu .plats .prix {
   width: 100%;
