@@ -116,23 +116,31 @@ main .locali main .locali i {
   animation-fill-mode: forwards;
   color: #9356DC;
 }
-.loader i {
-  animation: spin 3s;
+.loader .big-spin {
+  position: absolute;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  border: 1rem solid rgba(160, 160, 160, 0);
+  border-top: 1rem solid #9356dc;
+  border-left: 1rem solid #9356dc;
+  border-bottom: 1rem solid #9356dc;
+  rotate: 45deg;
+  animation: spin 1s infinite;
+}
+.loader .moyen-spin {
+  position: absolute;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 1rem solid rgba(160, 160, 160, 0);
+  border-top: 1rem solid #9356dc;
+  border-left: 1rem solid #9356dc;
+  border-bottom: 1rem solid #9356dc;
+  rotate: 45deg;
+  animation: nspin 1s infinite;
 }
 
-@keyframes disapear {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
 .function {
   background-color: hsl(0, 0%, 100%);
   padding: 2rem 1rem;
@@ -309,6 +317,24 @@ footer a i {
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes disapear {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes nspin {
+  to {
+    transform: rotate(-360deg);
   }
 }
 header {
