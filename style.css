@@ -102,6 +102,37 @@ main .locali main .locali i {
   opacity: 0.9;
 }
 
+.loader {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  inset: 0;
+  background-color: #ffffff;
+  height: 100vh;
+  z-index: 1;
+  opacity: 0.9;
+  animation: disapear 200ms;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  color: #9356DC;
+}
+.loader i {
+  animation: spin 3s;
+}
+
+@keyframes disapear {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
 .function {
   background-color: hsl(0, 0%, 100%);
   padding: 2rem 1rem;
