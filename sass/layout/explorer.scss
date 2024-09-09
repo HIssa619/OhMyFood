@@ -57,7 +57,7 @@
         border-top: 1rem solid #9356dc;
         border-left: 1rem solid #9356dc;
         border-bottom: 1rem solid #9356dc;
-        rotate: 45deg;
+        transform: rotate(45deg);
         animation: spin 1s infinite; 
     }
     & .moyen-spin{
@@ -69,7 +69,7 @@
         border-top: 1rem solid #9356dc;
         border-left: 1rem solid #9356dc;
         border-bottom: 1rem solid #9356dc;
-        rotate: 45deg;
+        transform: rotate(45deg);
         animation: nspin 1s infinite; 
     }
  
