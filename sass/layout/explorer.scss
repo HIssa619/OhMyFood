@@ -1,10 +1,10 @@
-
-@import "../tools/box-shadow.scss";
+@import  "../tools/box-shadow.scss";
+@import "../tools/colors.scss";
 
 .explorer{
     padding: 1.5rem;
     text-align: center;
-    background-color: #F6F6F6;
+    background-color:$lightergrey;
     &h1{
         padding: 2rem 4rem 0rem 4rem;
         font-size: 26px;
@@ -13,7 +13,13 @@
         font-size: 18px;
         padding: 0rem 2rem 0rem 2rem;
     }
-    & button{
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    button{
         margin: 2rem;
         width: 218px;
         height: 50px;
@@ -22,18 +28,20 @@
         border: none;
         border-radius: 25px;
         color:white;
-        background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+        background: $linear-gardient;
         cursor: pointer;
         transition: all 200ms;
-        @include base-shadow;
-        
-    }
-    & button:hover{
+        @include base-shadow;      
+}      
+    
+    button:hover{
         transform: scale(1.02);
-        box-shadow: 0px 9px 10px 0px #00000040;
+        @include base-shadow;
         opacity: 0.9 ;
     }
-    }
+
+}
+    
 
 .loader{
     position: fixed;
@@ -47,16 +55,16 @@
     animation: disapear 200ms ; 
     animation-delay: 2s; 
     animation-fill-mode: forwards;
-    color: #9356DC;
+    color: $purple;
     & .big-spin{
         position: absolute;
         width: 16rem;
         height: 16rem;
         border-radius: 50%;
         border: 1rem solid rgba(160, 160, 160, 0);    
-        border-top: 1rem solid #9356dc;
-        border-left: 1rem solid #9356dc;
-        border-bottom: 1rem solid #9356dc;
+        border-top: 1rem solid $purple;
+        border-left: 1rem solid $purple;
+        border-bottom: 1rem solid $purple;
         transform: rotate(45deg);
         animation: spin 1s infinite; 
     }
@@ -66,9 +74,9 @@
         height: 12rem;
         border-radius: 50%;
         border: 1rem solid rgba(160, 160, 160, 0);    
-        border-top: 1rem solid #9356dc;
-        border-left: 1rem solid #9356dc;
-        border-bottom: 1rem solid #9356dc;
+        border-top: 1rem solid $purple;
+        border-left: 1rem solid $purple;
+        border-bottom: 1rem solid $purple;
         transform: rotate(45deg);
         animation: nspin 1s infinite; 
     }

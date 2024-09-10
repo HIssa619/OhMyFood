@@ -1,3 +1,4 @@
+@use "../tools/colors.scss";
 .function{
     background-color: hsl(0, 0%, 100%);
     padding: 2rem 1rem;
@@ -15,7 +16,7 @@
     & li{
             width: 100%;
             padding: 1rem 1rem;
-            background-color: #F6F6F6;
+            background-color: $lightergrey;
             font-size: 16px;
             font-weight: 500; 
             border-radius: 1rem;
@@ -31,7 +32,7 @@
         
         & i {
             margin-right: 1rem;
-            color: #7e7e7e;
+            color: $lightgrey;
         }
 
 
@@ -39,7 +40,7 @@
             content:counter(num-menu);
             counter-increment: num-menu;
             color: white;
-            background-color:  #9356DC;
+            background-color:  $purple;
             width: 1.5rem;
             height: 1.5rem;
             display: grid;

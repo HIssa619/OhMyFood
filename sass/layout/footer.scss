@@ -1,7 +1,7 @@
-@import "../tools/colors.scss";
+@use "../tools/colors.scss";
 footer{
     padding: 0.5rem 2rem ;
-    background: #353535;
+    background: colors.$darkgrey;
     color: #FFFFFF;
     font-size: 18px;
     @media(min-width : 1024px){
