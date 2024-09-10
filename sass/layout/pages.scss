@@ -112,6 +112,7 @@ main{
             .plats{
                 max-height: 5rem;
                 overflow: hidden;
+                
                 max-width: 100%;
                 background-color: #FFFFFF;
                 padding-left: 1rem;
@@ -119,17 +120,25 @@ main{
                 cursor: pointer;
                 border-radius: 0.75rem;
                 @include base-shadow;
+                
                 .plat-head{
+                    overflow: hidden;
                 width: 100%;
                 padding: 1rem 0 1rem 0.25rem;
                 
                  h4{
+                    overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
                     font-size: 18px;    
                     font-weight: 500;   
                     white-space: nowrap;   
                     margin: 0;     
                 }
                 p{
+                    overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
                     font-size: 15.04px;
                     font-weight: 300;
                     margin: 0;

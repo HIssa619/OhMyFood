@@ -457,16 +457,23 @@ main .menu-page .liste-menu .submenu .plats {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
 }
 main .menu-page .liste-menu .submenu .plats .plat-head {
+  overflow: hidden;
   width: 100%;
   padding: 1rem 0 1rem 0.25rem;
 }
 main .menu-page .liste-menu .submenu .plats .plat-head h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-size: 18px;
   font-weight: 500;
   white-space: nowrap;
   margin: 0;
 }
 main .menu-page .liste-menu .submenu .plats .plat-head p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-size: 15.04px;
   font-weight: 300;
   margin: 0;
