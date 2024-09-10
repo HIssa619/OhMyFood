@@ -360,7 +360,6 @@ main img {
   object-fit: cover;
 }
 main .menu-page {
-  animation: appear 1s;
   width: 100%;
   border-radius: 2rem 2rem 0 0;
   background-color: #f6f6f6;
@@ -369,7 +368,6 @@ main .menu-page {
   z-index: 1;
 }
 main .menu-page .menu-head {
-  animation: appear 1.5s;
   width: 80%;
   margin: auto;
   display: flex;
@@ -400,7 +398,6 @@ main .menu-page .menu-head .card_btn .fa-solid:hover {
   opacity: 1;
 }
 main .menu-page .liste-menu {
-  animation: appear 2s;
   width: 100%;
   margin: auto;
 }
@@ -413,6 +410,17 @@ main .menu-page .liste-menu .submenu {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  animation: appear 1s;
+  animation-fill-mode: both;
+}
+main .menu-page .liste-menu .submenu:nth-child(1) {
+  animation-delay: 150ms;
+}
+main .menu-page .liste-menu .submenu:nth-child(2) {
+  animation-delay: 300ms;
+}
+main .menu-page .liste-menu .submenu:nth-child(3) {
+  animation-delay: 450ms;
 }
 main .menu-page .liste-menu .submenu .submenu__title {
   font-family: roboto;
