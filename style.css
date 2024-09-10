@@ -42,7 +42,7 @@ a {
 }
 
 header {
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
   width: 100%;
   height: 70px;
   display: flex;
@@ -63,7 +63,7 @@ main .locali {
   justify-content: center;
   align-items: center;
   background-color: #EAEAEA;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
 }
 main .locali main .locali i {
   font-size: 18px;
@@ -72,7 +72,7 @@ main .locali main .locali i {
 .explorer {
   padding: 1.5rem;
   text-align: center;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 .explorerh1 {
   padding: 2rem 4rem 0rem 4rem;
@@ -98,7 +98,7 @@ main .locali main .locali i {
 }
 .explorer button:hover {
   transform: scale(1.02);
-  box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
   opacity: 0.9;
 }
 
@@ -122,9 +122,9 @@ main .locali main .locali i {
   height: 16rem;
   border-radius: 50%;
   border: 1rem solid rgba(160, 160, 160, 0);
-  border-top: 1rem solid #9356dc;
-  border-left: 1rem solid #9356dc;
-  border-bottom: 1rem solid #9356dc;
+  border-top: 1rem solid #9356DC;
+  border-left: 1rem solid #9356DC;
+  border-bottom: 1rem solid #9356DC;
   transform: rotate(45deg);
   animation: spin 1s infinite;
 }
@@ -134,9 +134,9 @@ main .locali main .locali i {
   height: 12rem;
   border-radius: 50%;
   border: 1rem solid rgba(160, 160, 160, 0);
-  border-top: 1rem solid #9356dc;
-  border-left: 1rem solid #9356dc;
-  border-bottom: 1rem solid #9356dc;
+  border-top: 1rem solid #9356DC;
+  border-left: 1rem solid #9356DC;
+  border-bottom: 1rem solid #9356DC;
   transform: rotate(45deg);
   animation: nspin 1s infinite;
 }
@@ -160,7 +160,7 @@ main .locali main .locali i {
 .function ol li {
   width: 100%;
   padding: 1rem 1rem;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   font-size: 16px;
   font-weight: 500;
   border-radius: 1rem;
@@ -214,7 +214,7 @@ main .locali main .locali i {
   }
 }
 .menus .menu_card .card {
-  background-color: #fff;
+  background-color: #f6f6f6;
   border-radius: 1rem;
   text-decoration: none;
   color: inherit;
@@ -449,7 +449,7 @@ main .menu-page .liste-menu .submenu .plats {
   display: flex;
   cursor: pointer;
   border-radius: 0.75rem;
-  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
 }
 main .menu-page .liste-menu .submenu .plats .plat-head {
   width: 100%;
@@ -475,7 +475,7 @@ main .menu-page .liste-menu .submenu .plats .prix {
   padding: 0 1rem 1rem 0;
 }
 main .menu-page .liste-menu .submenu .plats .confirmation-logo {
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   border-radius: 0 0.75rem 0.75rem 0;
   margin-right: -5.75rem;
   width: 6rem;
@@ -485,7 +485,7 @@ main .menu-page .liste-menu .submenu .plats .confirmation-logo {
   transition-duration: 1s;
 }
 main .menu-page .liste-menu .submenu .plats .confirmation-logo .confirmation--logo {
-  color: #99E2D0;
+  color: #99e2d0;
   background-color: #FFFFFF;
   border-radius: 1rem;
   width: 20px;
@@ -523,7 +523,7 @@ main .button_commander button {
 }
 main .button_commander button:hover {
   transform: scale(1.02);
-  box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
   opacity: 0.9;
 }
 
