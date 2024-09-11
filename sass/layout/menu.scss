@@ -22,7 +22,7 @@
             
         }
         & .card{
-            background-color: colors.$lightergrey;
+            background-color: white;
             border-radius: 1rem;
             text-decoration: none;
             color: inherit;
@@ -57,16 +57,27 @@
                     }
                     
                 }
-                & .card_btn{
-                    & i{
+                & i{
                         
-                        font-size: 35px;
-                        position: absolute;
-                        right:  2rem;
-                        bottom: 1.5rem;
+                    font-size: 35px;
+                    position: absolute;
+                    right:  2rem;
+                    bottom: 1.5rem;
+                    
+                }
+            }
+        }
+    }
+}
+    .card_btn{
+            & i{
                         
-                    }
-                    & .fa-solid{
+                font-size: 35px;
+                position: absolute;
+               
+        }
+                    
+                   & .fa-solid{
                         color: transparent;
                         background-image :$linear-gardient;
                         background-clip: text;
@@ -76,10 +87,9 @@
                         &:hover{
                             opacity: 1;
                     
-                        }
+                        
                     }
                 }
-            }
-        }
-    }
 }
+        
+    

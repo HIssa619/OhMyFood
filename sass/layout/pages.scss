@@ -38,35 +38,21 @@ main{
         
         
         .menu-head{
-           
             width: 80%;
             margin: auto;
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 2rem;
+            gap: 3rem;
+            position: relative;
+            
             h2{
                 font-family: shrikhand;
             }
-            & .card_btn{
-                display: flex;
-                align-items: center;
-                & i{
-                    font-size: 35px;
-                    position: absolute;    
-                }
-                & .fa-solid{
-                    color: transparent;
-                    background-image :colors.$linear-gardient;
-                    background-clip: text;
-                    -webkit-background-clip: text;
-                    opacity: 0;
-                    transition: all 300ms;
-                    &:hover{
-                        opacity: 1;
-                    }
-                }
+            i{
+                top: 1.25rem;
             }
+            
 
         }
 
